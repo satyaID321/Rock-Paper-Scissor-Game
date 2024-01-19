@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.move-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.move-button{
+    background: transparent;
+    border: 8px solid white;
+    border-radius: 100px;
+    padding: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#reset{
+    font-size: 30px;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#reset:active,
+#rock:active,
+#paper:active,
+#scissor:active{
+    scale: .95;
+}
+
+.js-result{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.js-moves,
+.js-score{
+    font-size: 20px;
+}
